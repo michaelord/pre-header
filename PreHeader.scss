@@ -1,0 +1,16 @@
+.pre-header {
+	$parent: &;
+
+	/*
+    position:sticky;top:0;
+    z-index:20;
+    */
+
+	padding: var(--space-sm) 0;
+	background: var(--clr-primary);
+	color: #fff;
+
+	p {
+		margin: 0;
+	}
+}

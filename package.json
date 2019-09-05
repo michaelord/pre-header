@@ -1,0 +1,16 @@
+{
+  "name": "pre-header",
+  "private": true,
+  "description": "...",
+  "version": "0.1.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/michaelord/pre-header.git"
+  },
+  "devDependencies": {
+    "components/layout": "http://github.com/michaelord/layout.git"
+  },
+  "author": "michaelord",
+  "keywords": []
+}
