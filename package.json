@@ -8,9 +8,10 @@
     "type": "git",
     "url": "http://github.com/michaelord/pre-header.git"
   },
-  "devDependencies": {
-    "components/layout": "http://github.com/michaelord/layout.git"
-  },
+  "devDependencies": {},
   "author": "michaelord",
-  "keywords": []
+  "keywords": [],
+  "dependencies": {
+    "components/layout": "http://github.com/michaelord/layout.git"
+  }
 }
