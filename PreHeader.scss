@@ -1,14 +1,35 @@
 .pre-header {
 	$parent: &;
 
-	/*
-    position:sticky;top:0;
-    z-index:20;
-    */
-
 	padding: var(--space-sm) 0;
-	background: var(--clr-primary);
-	color: #fff;
+	position: relative;
+
+	&__main {
+		display: flex;
+		align-items: center;
+	}
+
+	&__message {
+		flex-grow: 1;
+
+		> a {
+			display: block;
+			text-decoration: none;
+
+			&:after {
+				content: '';
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+			}
+		}
+
+		#{$parent}--center & {
+			text-align: center;
+		}
+	}
 
 	p {
 		margin: 0;

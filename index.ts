@@ -1,1 +1,1 @@
-export {PreHeader} from './PreHeader';
+export {PreHeader, PreHeaderProps} from './PreHeader';

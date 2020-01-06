@@ -1,0 +1,17 @@
+.display-enter {
+}
+.display-enter-active {
+	transition: opacity 300ms, max-height 300ms;
+
+	max-height: 100px;
+}
+.display-exit {
+	transition: opacity 300ms, max-height 300ms;
+
+	max-height: 100px;
+	overflow: hidden;
+}
+.display-exit-active {
+	max-height: 0;
+	transition: opacity 300ms, max-height 300ms;
+}

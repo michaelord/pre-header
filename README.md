@@ -1,4 +1,14 @@
 ---
 title: Pre Header
-tags : ["all"]
+tags : ["all", "core", "navigation", "wip"]
+category: "Undefined"
+logo: "./thumbnail.jpg"
+icon: '<svg viewBox="0 0 260 180" xmlns="http://www.w3.org/2000/svg" fill="none"><rect width="260" height="180" fill="var(--color-bg)"></rect><rect x="10" y="76" width="240" height="28" fill="var(--color-primary)"></rect><path d="M231 86L239 94" stroke="var(--color-bg)" stroke-width="2" stroke-linecap="square"></path><path d="M239 86L231 94" stroke="var(--color-bg)" stroke-width="2" stroke-linecap="square"></path><rect x="22" y="87" width="92" height="6" fill="var(--color-bg)"></rect></svg>'
+published : true
 ---
+import { Playground, PlaygroudCode } from 'components/styleguide';
+import {PreHeader} from './';
+
+[TODO]
+
+<PreHeader content={`<p>content</p>`} name="pre-header-example" />
